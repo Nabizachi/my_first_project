@@ -5,12 +5,16 @@
     background-color: Gainsboro;
 }
 
-#root {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
+
 
 .App {
     width: 800px;
+}
+
+.topPanel {
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    border: 20px 20px 20px 20px;
+    border-color: black;
 }
