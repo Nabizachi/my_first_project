@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    background-color: red;
 }
 
 #root {
@@ -14,14 +13,4 @@
 
 .App {
     width: 800px;
-
-}
-
-.post {
-    display: flex;
-    padding: 2px;
-    border: 2px solid teal;
-    margin-top: 15px;
-    justify-content: space-between;
-    align-items: center;
 }
