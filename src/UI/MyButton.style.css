@@ -1,0 +1,12 @@
+.Btn {
+    margin: 0;
+    padding: 18px 6px;
+    border: 2px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    background-color: rgba(0, 255, 255, 0.288);
+
+}
