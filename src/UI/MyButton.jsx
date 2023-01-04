@@ -4,9 +4,7 @@ import './MyButton.style.css'
 
 const MyButton = () => {
     return (
-        <button className='myBtn'>
-            Кнопка
-        </button>
+        <button className='myBtn' />
     )
 }
 

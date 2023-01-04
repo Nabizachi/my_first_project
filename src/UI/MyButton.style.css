@@ -1,12 +1,21 @@
 .myBtn {
     margin: 0;
-    padding: 18px 6px;
-    border: 2px;
-    background-color: aqua;
+    padding: 10px 18px;
+    border-radius: 10%;
+    border: 5px;
+    border-color: snow;
+    background-color: snow;
     cursor: pointer;
+    color: black;
+    box-shadow: 5px;
 }
 
 .myBtn:hover {
-    background-color: rgba(0, 255, 255, 0.288);
+    background-color: LightSteelBlue;
 
+}
+
+.myBtn:active {
+    cursor: pointer;
+    background-color: snow;
 }
