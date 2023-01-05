@@ -1,15 +1,13 @@
 .myBtn {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     margin: 0 auto;
     padding: 10px 18px;
     border-radius: 10%;
     border: 5px solid #333;
-
     background-color: snow;
     cursor: pointer;
     color: black;
-    box-shadow: 5px;
-
-
 }
 
 .myBtn:hover {
