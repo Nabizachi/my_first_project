@@ -6,26 +6,10 @@ import Logo from '../../Images/logo.png'
 
 const TopPanel = () => {
     return (
-        <div className="header">
-            <div className="logoBox">
-                <div className="logoImage">
-
-                </div>
-
-                <div className="logoText">
-                    <h1 > Конструкторский</h1>
-                    <h1> отдел</h1>
-                </div>
-            </div>
-
-            <div className="menu">
-
-                <MyButton>Домой</MyButton>
-                <MyButton>В работе</MyButton>
-                <MyButton>Дополнительно</MyButton>
-                <MyButton>Решенные</MyButton>
-
-            </div>
+        <div className="buttonsMenu">
+            <MyButton>Проекты</MyButton>
+            <MyButton>Актуальное КД</MyButton>
+            <MyButton>Склад</MyButton>
         </div >
     )
 }

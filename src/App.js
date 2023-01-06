@@ -7,7 +7,7 @@ function App() {
   return (
     <div >
       <TopLogoPanel />
-      {/* <TopPanel /> */}
+      <TopPanel />
     </div >
   )
 }
