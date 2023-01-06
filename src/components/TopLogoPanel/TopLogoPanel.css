@@ -2,18 +2,30 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    height: 50px;
+    height: 70px;
     margin: 0;
     padding: 0;
     border: 0;
     background-color: azure;
+    border-bottom: 2px solid black;
+}
+
+.imageButtonBox {
+    display: flex;
+    width: 50%;
+    align-items: center;
 }
 
 .logoPanelImage {
     display: flex;
     align-items: center;
     margin-left: 50px;
-    width: 50%;
+    width: 25%;
+}
+
+.buttonBox {
+    display: flex;
+    width: 25%;
 }
 
 .logoPanelText {
