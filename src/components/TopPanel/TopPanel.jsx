@@ -9,7 +9,7 @@ const TopPanel = () => {
         <div className="header">
             <div className="logoBox">
                 <div className="logoImage">
-                    <img src={Logo} alt='/' />
+
                 </div>
 
                 <div className="logoText">

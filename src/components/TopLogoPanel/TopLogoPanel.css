@@ -1,0 +1,36 @@
+.logoPanel {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: azure;
+}
+
+.logoPanelImage {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.logoPanelText {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    width: 50%;
+}
+
+p {
+    margin: 0;
+}
+
+.logoImage {
+    height: 30px;
+    width: auto;
+}
