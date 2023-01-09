@@ -8,6 +8,7 @@
     border: 0;
     background-color: azure;
     border-bottom: 2px solid black;
+    position: fixed;
 }
 
 .imageButtonBox {
