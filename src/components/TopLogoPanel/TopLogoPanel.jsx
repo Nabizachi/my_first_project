@@ -20,6 +20,9 @@ const TopLogoPanel = () => {
             <div className="logoPanelText">
                 <p>Портал конструкторского отдела</p>
             </div>
+            <div className="logoPanelButton">
+                <MyButton >Войти</MyButton>
+            </div>
         </div>
     )
 }

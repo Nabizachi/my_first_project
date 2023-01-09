@@ -45,4 +45,9 @@ p {
 .logoImage {
     height: 30px;
     width: auto;
+    cursor: pointer;
+}
+
+.logoPanelButton {
+    margin-right: 50px;
 }
