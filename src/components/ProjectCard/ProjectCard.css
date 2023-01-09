@@ -1,0 +1,14 @@
+.card {
+    margin: 50px;
+    border: 5px solid #000;
+    border-radius: 5%;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: azure;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+
+}

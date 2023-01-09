@@ -4,3 +4,11 @@ body {
     border: 0;
     background-color: rgb(226, 237, 250);
 }
+
+.space {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}

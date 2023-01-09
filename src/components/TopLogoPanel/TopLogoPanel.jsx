@@ -9,7 +9,7 @@ const TopLogoPanel = () => {
         <div className="logoPanel">
             <div className="imageButtonBox">
                 <div className='logoPanelImage'>
-                    <img className="logoImage" src={Logo} alt='/' />
+                    <img className="logoImage" src={Logo} alt='ВАКИО' />
                 </div>
                 <div className="buttonBox">
                     <MyButton>Проекты</MyButton>
