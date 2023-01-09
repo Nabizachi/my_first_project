@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-
 function useInputValue(defaultValue = '') {
     const [value, setValue] = useState(defaultValue)
 
@@ -32,7 +31,8 @@ const AddProjectCard = ({ onCreate }) => {
     return (
         <form style={{ marginBottom: '1rem' }} onSubmit={submitHandler}>
             <input style={{ marginRight: '1rem' }} {...input.bind} />
-            <button className='btn' type='submit'> Add Todo</button>
+
+            <button className='btn' type='submit'> Новый проект </button>
         </form>
     )
 }
