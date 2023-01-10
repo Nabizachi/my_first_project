@@ -4,8 +4,12 @@ import Context from './context'
 import TopLogoPanel from "./components/TopLogoPanel/TopLogoPanel"
 import AddProjectCard from "./components/AddProjectCard/AddProjectCard";
 import CardList from "./components/CardList/CardList";
+import NewProjectModal from "./components/NewProjectModal/NewProjectModal";
+import MyButton from "./UI/MyButton/MyButton";
 
 function App() {
+
+  const [modalActive, setModalActive] = useState(true)
 
   const [cards, setCards] = useState([
     // { id: 1, names: 'VK-05', engeneer: 'Bobrov G', completed: '100%', fullCompleted: false },
@@ -41,6 +45,7 @@ function App() {
   return (
     <Context.Provider value={{ removeCard }}>
       <div >
+        <NewProjectModal active={modalActive} setActive={setModalActive} />
         <div>
           <TopLogoPanel />
         </div>
@@ -54,6 +59,7 @@ function App() {
               :
               <h2>Проектов нет</h2>
           }
+          <MyButton onClick={() => setModalActive(true)}> Создать проект</MyButton>
         </div>
       </div >
     </Context.Provider>

@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import './ProjectCard.css'
 import Context from '../../context'
+import MyButton from "../../UI/MyButton/MyButton";
 
 const styles = {
     li: {
@@ -17,6 +18,7 @@ const styles = {
     }
 }
 
+
 const ProjectCard = ({ card, index, onChange }) => {
     const { removeCard } = useContext(Context)
     const classes = []
@@ -30,8 +32,9 @@ const ProjectCard = ({ card, index, onChange }) => {
                 <strong>{index + 1}</strong>
                 &nbsp;
                 {card.names}
+                &nbsp;
             </span>
-            <button className='btn' onClick={removeCard.bind(null, card.id)}>&times;</button>
+            <MyButton onClick={removeCard.bind(null, card.id)}>&times;</MyButton>
         </li >
     )
 }
