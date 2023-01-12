@@ -6,8 +6,12 @@ import AddProjectCard from "./components/AddProjectCard/AddProjectCard";
 import CardList from "./components/CardList/CardList";
 import NewProjectModal from "./components/NewProjectModal/NewProjectModal";
 import MyButton from "./UI/MyButton/MyButton";
+import { useDispatch, useSelector } from "react-redux";
 
 function App() {
+
+  const dispatch = useDispatch()
+  const cash = useSelector
 
   const [modalActive, setModalActive] = useState(true)
 
